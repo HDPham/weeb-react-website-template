@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.979a7b7b.chunk.css",
-    "main.js": "/static/js/main.b7dcbd99.chunk.js",
-    "main.js.map": "/static/js/main.b7dcbd99.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5e825941.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5e825941.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.317974a3.chunk.js": "/static/js/2.317974a3.chunk.js",
-    "static/js/2.317974a3.chunk.js.map": "/static/js/2.317974a3.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3b379251837c8e13c63b5ae3dfcea250.js": "/precache-manifest.3b379251837c8e13c63b5ae3dfcea250.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.979a7b7b.chunk.css.map": "/static/css/main.979a7b7b.chunk.css.map",
-    "static/js/2.317974a3.chunk.js.LICENSE": "/static/js/2.317974a3.chunk.js.LICENSE"
+    "main.css": "/weeb-react-website-template/static/css/main.979a7b7b.chunk.css",
+    "main.js": "/weeb-react-website-template/static/js/main.8ab1ad1b.chunk.js",
+    "main.js.map": "/weeb-react-website-template/static/js/main.8ab1ad1b.chunk.js.map",
+    "runtime-main.js": "/weeb-react-website-template/static/js/runtime-main.c2ca11c8.js",
+    "runtime-main.js.map": "/weeb-react-website-template/static/js/runtime-main.c2ca11c8.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/weeb-react-website-template/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.317974a3.chunk.js": "/weeb-react-website-template/static/js/2.317974a3.chunk.js",
+    "static/js/2.317974a3.chunk.js.map": "/weeb-react-website-template/static/js/2.317974a3.chunk.js.map",
+    "index.html": "/weeb-react-website-template/index.html",
+    "precache-manifest.f72a6fcb9e645c28135956532308e952.js": "/weeb-react-website-template/precache-manifest.f72a6fcb9e645c28135956532308e952.js",
+    "service-worker.js": "/weeb-react-website-template/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/weeb-react-website-template/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.979a7b7b.chunk.css.map": "/weeb-react-website-template/static/css/main.979a7b7b.chunk.css.map",
+    "static/js/2.317974a3.chunk.js.LICENSE": "/weeb-react-website-template/static/js/2.317974a3.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e825941.js",
+    "static/js/runtime-main.c2ca11c8.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.317974a3.chunk.js",
     "static/css/main.979a7b7b.chunk.css",
-    "static/js/main.b7dcbd99.chunk.js"
+    "static/js/main.8ab1ad1b.chunk.js"
   ]
 }
