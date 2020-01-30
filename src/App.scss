@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Marck+Script|Sawarabi+Mincho|Ultra&display=swap");
+
+@font-face {
+	font-family: "Gang of Three";
+	src: url("/fonts/go3.ttf") format("truetype");
+}
+
+$go3: "Gang of Three";
+$ms: "Marck Script", cursive;
+$sm: "Sawarabi Mincho", sans-serif;
+$ult: "Ultra", serif;
+
+/* extra small screen | phone | 0px - 575px */
+@media (max-width: 575px) {
+	#projBanner > h2 {
+			font-size: 2em;
+	}
+	#homeBanner > h2 {
+			font-size: 4em;
+	}
+}
+
+/* small screen | phone | 576px - 767px */
+@media (min-width: 576px) {
+	#projBanner > h2 {
+			font-size: 3em;
+	}
+	#homeBanner > h2 {
+			font-size: 5em;
+	}
+	#homeBanner > p:nth-child(2) {
+			font-size: 1.5em;
+	}
+}
+
+/* medium screen | tablet | 768px - 991px */
+@media (min-width: 768px) {
+	#projBanner > h2 {
+			font-size: 4em;
+	}
+	#homeBanner > h2 {
+			font-size: 6em;
+	}
+}
+
+/* large screen | desktop | 992px - 1199px */
+@media (min-width: 992px) {
+	#projBanner > h2 {
+			font-size: 5em;
+	}
+	#homeBanner > h2 {
+			font-size: 7em;
+	}
+	#homeBanner >  p:nth-child(2) {
+			font-size: 2em;
+	}
+}
+
+/* extra large screen | desktop | >= 1200px */
+@media (min-width: 1200px) {
+	#projBanner > h2 {
+			font-size: 6em;
+	}
+	#homeBanner > h2 {
+			font-size: 8em;
+	}
+}
+
+@keyframes fadein {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes textleftslide {
+	0% {left: -100vw}
+	100% {left: 10vw}
+}
+
+@keyframes textrightslide {
+	0% {right: -100vw}
+	100% {right: 10vw}
+}
+
+.fade-in {
+	animation: fadein 1s forwards;
+}
+
+.font-sm {
+	font-family: $sm;
+}
+
+.font-go3 {
+	font-family: $go3;
+}
+
+.text-border-black {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.text-border-white {
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#root {
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 5rem;
+}
+
+#brand {
+	position: fixed;
+	top: 0.875rem;
+	left: 1rem;
+	z-index: 1031;
+	font-size: 1rem;
+	line-height: 1.5;
+
+	> a > span {
+		font-size: 1rem;
+	}
+}
+
+nav {
+	transition: 1s;
+
+	&.navbar-bg {
+		background-color: rgba(146, 168, 209, 0.75);
+	}
+
+	.navbar-nav a {
+		border: 0.15em solid transparent;
+
+		&.active {
+			border: 0.15em solid white;
+			border-radius: 5%;
+		}
+	}
+}
+
+footer {
+	bottom: 0;
+
+	a {
+		margin-left: 0.5em;
+	}
+
+	.fa-facebook {
+		color: #3b5998;
+	}
+	
+	.fa-linkedin {
+		color: #0077B5;
+	}
+	
+	.fa-github {
+		color: white;
+	}
+	
+	.fa-envelope {
+		color: orange;
+	}
+}
+
+#homeBanner {
+	height: 100vh;
+	animation: fadein 2s forwards;
+
+	> h2 {
+		font-family: $ms;
+		line-height: 1;
+	}
+}
+
+#about {
+	figure {
+		overflow: hidden;
+		background-color: lightgray;
+		width: 10rem;
+		height: 10rem;
+
+		img {
+			top: -1rem;
+		}
+	}
+}
+
+#projBanner {
+	overflow-x: hidden;
+	min-height: 70vh;
+
+	> h2 > span:nth-child(1) {
+		position: relative;
+		animation: textleftslide 1s forwards;
+	}
+
+	> h2 > span:nth-child(3) {
+		position: relative;
+		float: right;
+		right: -100vw;
+		animation: textrightslide 1s 1s forwards;
+	}
+}
+
+#projects {
+	> h2 {
+		font-size: 2.5rem;
+	}
+
+	figure {
+		width: 100%;
+		padding-top: 2/3 * 100%;
+
+		img {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+#miscellaneous {
+	padding-bottom: 5rem;
+	background-color: black;
+	font-family: $ult;
+
+	> a {
+		opacity: 0;
+		font-size: 80%;
+	
+		&:hover {
+			opacity: 1;
+			color: white;
+		}
+	}
+}
