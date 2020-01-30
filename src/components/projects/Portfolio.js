@@ -48,7 +48,7 @@ function Portfolio() {
 						<>
 							<Col xs={10} md={7} lg={4}>
 								<figure className="position-relative">
-									<img src={`/images/${project.imageName}`} alt="#" className="position-absolute rounded" />
+									<img src={`${process.env.PUBLIC_URL}/images/${project.imageName}`} alt="#" className="position-absolute rounded" />
 								</figure>
 							</Col>
 							<Col xs={10} lg={6}>
