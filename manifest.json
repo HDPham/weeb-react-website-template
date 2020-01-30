@@ -3,9 +3,9 @@
   "name": "Weeb React Website Template",
   "icons": [
     {
-      "src": "pikachu.gif",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/gif"
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",
